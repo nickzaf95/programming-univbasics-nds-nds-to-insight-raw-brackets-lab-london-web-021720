@@ -30,7 +30,7 @@ def directors_totals(nds)
       sum = sum + nds[counter2][:movies][counter3][:worldwide_gross]
       counter3 += 1 
     end
-    result[nds[counter1][:name]] = sum
+    result[nds[counter2][:name]] = sum
     counter2 += 1 
   end
   result
